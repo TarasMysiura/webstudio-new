@@ -1,0 +1,310 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  /* ===================HEADER================== */
+  .header .container {
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 70px; */
+  }
+  .mobile-btn-menu,
+  .mobile-btn-close {
+    display: none;
+  }
+
+  .navigation,
+  .contacts {
+    display: block;
+  }
+  .navigation {
+    margin-right: auto;
+  }
+  .navigation .list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  .mob-menu {
+    display: none;
+  }
+
+  .navigation .item {
+    position: relative;
+    padding-bottom: 24px;
+  }
+  .navigation .link {
+    font-weight: var(--font-weight-roboto-500);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-title);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link.current {
+    color: var(--color-btn-defult);
+  }
+  .link.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-btn-defult);
+    border-radius: 2px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .contacts .email {
+    margin-bottom: 4px;
+  }
+  .contacts .email,
+  .contacts .tel {
+    display: block;
+
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: var(--color-text);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .navigation .link:hover,
+  .contacts .email:hover,
+  .contacts .tel:hover,
+  .navigation .link:focus,
+  .contacts .email:focus,
+  .contacts .tel:focus {
+    color: var(--color-btn-defult);
+  }
+
+  @media screen and (max-width: 767px) {
+    .nav {
+      display: none;
+    }
+  }
+  /* ====================.dropbtn=================== */
+  .mob-dropdown{
+    display: none;
+  }
+ 
+  .dropbtn {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 60px;
+  }
+
+  .dropbtn {
+    background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png")
+      no-repeat left center;    
+    padding-left: 25px;
+    width: 50px;
+  }
+
+  .dropbtn::after {
+    background: rgba(0, 0, 0, 0)
+      url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png")
+      no-repeat scroll right center;
+    content: "";
+    height: 16px;
+    position: absolute;
+    right: -10px;
+    top: 7px;
+    width: 16px;
+  }
+
+   .dropdown-content a:first-child{
+    background: url("https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png")
+      no-repeat;
+      background-position: 4px center;
+  }
+
+  .dropdown-content a:last-child {
+    background: url("http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png")
+      no-repeat;
+      background-position: 4px center;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 4px 4px 4px 30px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* =========================================== */
+  /* =========================================== */
+  /*------------HERO------------------*/
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero-bg-tab.jpg);
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero {
+    max-width: 768px;
+    padding-bottom: 108px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient), url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
+  .hero .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .hero .title {
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    margin-bottom: 40px;
+    width: 496px;
+  }
+
+  /* -------------------------------- */
+  /* =================PREFERENCE==================== */
+  .preference .item {
+    width: 356px;
+    margin-bottom: 0;
+  }
+  .preference .list .title {
+    text-align: left;
+  }
+  .preference .list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  /* ===================================== */
+  /* ============OUR TEAM================= */
+  .team .list {
+    column-gap: 24px;
+  }
+
+  /* ---------customers-------------- */
+
+  .customers .list {
+    column-gap: 24px;
+  }
+
+  .customers .item {
+    width: 168px;
+  }
+  .customers .link {
+    padding: 16px 32px;
+  }
+  /* ----------------------------------- */
+  /* --------------FOOTER-------------- */
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .footer .container {
+    width: 768px;
+    gap: 72px;
+    padding-left: 108px;
+    justify-content: left;
+  }
+  .footer .container-wrap {
+    gap: 24px;
+  }
+  .footer .logo {
+    text-align: left;
+  }
+
+  .footer .text {
+    width: 264px;
+  }
+  .subscribe-wrap {
+    display: flex;
+    gap: 24px;
+  }
+  .subscribe-label {
+    text-align: left;
+  }
+  .subscribe-input {
+    width: 264px;
+    padding: 8px 16px;
+    margin-bottom: 0;
+  }
+  .subscribe-btn {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* -------------------------------- */
+  /*------------PORTFOLIO------------------*/
+  .portfolio .list-btn {
+    justify-content: center;
+
+    margin-bottom: 48px;
+  }
+  .list-card {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .list-card .item {
+    width: 356px;
+  }
+
+  /* ---------------------------------------- */
+  /* ================MODAL================== */
+  .modal {
+    max-width: 408px;
+    width: 408px;
+    padding-top: 72px;
+    padding-bottom: 24px;
+  }
+  .modal .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* ======================================= */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* =================PREFERENCE==================== */
+
+  .preference .item:first-child .text {
+    padding-right: 40px;
+  }
+  .preference .item:last-child .text {
+    padding-right: 5px;
+  }
+  /* ===================================== */
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
+  /*------------HERO------------------*/
+  .hero .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* =================PREFERENCE==================== */
+}
+
+@media screen and (max-width: 767px) {
+  .header .container {
+    max-width: 428px;
+    width: 100%;
+  }
+  /* =================PREFERENCE==================== */
+  .preference .title {
+    text-align: center;
+  }
+}
