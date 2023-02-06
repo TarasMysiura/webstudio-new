@@ -247,11 +247,6 @@ body {
   width: 16px;
 }
 
-/* .mob-dropdown-content > a:first-child {
-  background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png")
-    no-repeat;
-  background-position: 4px center;
-} */
 .mob-dropdown-content > a:first-child {
   background: url("https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png")
     no-repeat;
@@ -333,9 +328,7 @@ body {
   font-size: 20px;
   line-height: calc(28 / 20);
   letter-spacing: 0.02em;
-  /* border: 1px solid #2e2f42; */
-
-  color: var(--color-text);
+    color: var(--color-text);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);

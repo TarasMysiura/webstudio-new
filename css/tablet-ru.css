@@ -117,8 +117,8 @@
   }
 
   .dropbtn {
-    background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png")
-      no-repeat left center;    
+    background: url("http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png")
+      no-repeat left center;      
     padding-left: 25px;
     width: 50px;
   }
@@ -142,8 +142,8 @@
   }
 
   .dropdown-content a:last-child {
-    background: url("http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png")
-      no-repeat;
+    background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png")
+      no-repeat;  
       background-position: 4px center;
   }
 

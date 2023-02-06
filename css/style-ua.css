@@ -1,0 +1,22 @@
+.mob-dropbtn {
+  background: url('https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png')
+    no-repeat;
+  padding-left: 25px;
+  width: 50px;
+}
+
+.mob-dropbtn::after {
+  background: rgba(0, 0, 0, 0)
+    url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png')
+    no-repeat scroll right center;
+}
+
+.mob-dropdown-content > a:first-child {
+  background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png')
+    no-repeat;
+}
+
+.mob-dropdown-content > a:last-child {
+  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png')
+    no-repeat left center;
+}

@@ -7,7 +7,6 @@
     width: 768px;
     display: flex;
     justify-content: space-between;
-    /* gap: 70px; */
   }
   .mobile-btn-menu,
   .mobile-btn-close {
@@ -47,7 +46,7 @@
     color: var(--color-btn-defult);
   }
   .link.current::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: 0;
@@ -93,10 +92,10 @@
     }
   }
   /* ====================.dropbtn=================== */
-  .mob-dropdown{
+  .mob-dropdown {
     display: none;
   }
- 
+
   .dropbtn {
     display: block;
     padding: 5px;
@@ -116,17 +115,17 @@
   }
 
   .dropbtn {
-    background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png")
-      no-repeat left center;    
+    background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png')
+      no-repeat left center;
     padding-left: 25px;
     width: 50px;
   }
 
   .dropbtn::after {
     background: rgba(0, 0, 0, 0)
-      url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png")
+      url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png')
       no-repeat scroll right center;
-    content: "";
+    content: '';
     height: 16px;
     position: absolute;
     right: -10px;
@@ -134,16 +133,16 @@
     width: 16px;
   }
 
-   .dropdown-content a:first-child{
-    background: url("https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png")
+  .dropdown-content a:first-child {
+    background: url('https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png')
       no-repeat;
-      background-position: 4px center;
+    background-position: 4px center;
   }
 
   .dropdown-content a:last-child {
-    background: url("http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png")
+    background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png')
       no-repeat;
-      background-position: 4px center;
+    background-position: 4px center;
   }
 
   .dropdown-content a {
@@ -161,7 +160,6 @@
     display: block;
   }
 
-  /* =========================================== */
   /* =========================================== */
   /*------------HERO------------------*/
   .hero {
@@ -193,7 +191,6 @@
     margin-bottom: 40px;
     width: 496px;
   }
-
   /* -------------------------------- */
   /* =================PREFERENCE==================== */
   .preference .item {
